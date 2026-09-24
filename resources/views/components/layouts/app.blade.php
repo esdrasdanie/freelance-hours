@@ -10,9 +10,10 @@
 
         @livewireStyles
     </head>
-    <body>
-        {{ $slot }}
-
-        @livewireScripts
+    <body class="bg-[#070715] flex flex-col min-h-full text-[#C3C3D1]">
+        <x-ui.navbar />
+        <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full py-[40px]">
+            {{ $slot }}
+        </main>
     </body>
 </html>

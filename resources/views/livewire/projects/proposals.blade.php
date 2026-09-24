@@ -1,3 +1,1 @@
-<div>
-    componente livewire proop.
-</div>
+<x-proposals :proposals="$this->proposals" />
