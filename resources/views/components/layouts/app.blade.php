@@ -15,5 +15,8 @@
         <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full py-[40px]">
             {{ $slot }}
         </main>
+
+        @livewireScripts
+        @vite('resources/js/app.js')
     </body>
 </html>
